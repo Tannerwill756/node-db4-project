@@ -13,3 +13,9 @@ router.get("/", (req, res) => {
     res.json(recipes);
   });
 });
+
+// router.get("/:id/shoppinglist", (req,res) => {
+
+// })
+
+module.exports = router;
